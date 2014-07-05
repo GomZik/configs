@@ -82,5 +82,4 @@ export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/vendor_perl:/usr/b
 export WORKON_HOME=$HOME/.envs
 source virtualenvwrapper.sh
 
-# Scripts
-export PATH=$PATH:$HOME/.myscripts
+. $HOME/.profile

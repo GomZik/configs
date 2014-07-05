@@ -14,6 +14,8 @@ fi
 xrdb -merge "${HOME}/.Xresources"
 xrdb -merge "${HOME}/.XXkb"
 
+. $HOME/.profile
+
 # exec gnome-session
 # exec startkde
 # exec startxfce4
