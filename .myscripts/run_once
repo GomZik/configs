@@ -1,2 +1,3 @@
 #!/bin/sh
+sleep 2
 pgrep $@ > /dev/null || ($@) &

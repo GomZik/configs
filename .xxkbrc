@@ -1,0 +1,14 @@
+XXkb.image.path: /home/gomzik/.config/xxkb
+
+XXkb.mainwindow.type: tray
+XXkb.mainwindow.enable: yes
+XXkb.mainwindow.label.enable: no
+XXkb.mainwindow.geometry: 20x20+0+0
+XXkb.mainwindow.image.1: by_latin.xpm
+XXkb.mainwindow.image.2: ru.xpm
+XXkb.mainwindow.image.3: by.xpm
+XXkb.mainwindow.image.4: 
+
+XXkb.button.enable: no
+XXkb.controls.focusout: no
+XXkb.controls.two_state: no

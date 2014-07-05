@@ -444,5 +444,7 @@ client.connect_signal("focus", function(c) c.border_color = beautiful.border_foc
 client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
 -- }}}
 
+awful.util.spawn_with_shell("setxkbmap -layout by,ru,by -variant latin,, -option \"grp:caps_toggle,grp_led:scroll\"")
 awful.util.spawn_with_shell("run_once xfce4-power-manager")
 awful.util.spawn_with_shell("run_once nm-applet")
+awful.util.spawn_with_shell("run_once xxkb")
